@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    background-color: rgb(56, 55, 55);
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header-logo-nameshop {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    /* height: 100%; */
+    width: 100px;
+}
+
+.header-nameshop {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    /* background-color: black; */
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.header-nav-item {
+    /* margin: 10px; */
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.header-nav-item:hover {
+    background-color: #555555;
+}
+
+.header-search {
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+}
+
+.header-input-search {
+    border: none;
+    outline: none;
+}
+
+.header-input-search::placeholder {
+    font-size: 14px;
+}
+
+.header-icon-search {
+    size: 20px;
+}
+
+.header-input-search {
+    font-size: 15px;
+}
+
+.header-icon-user {
+    color: white;
+}
+
+.header-icon-shoppingcart {
+    color: white;
+}
